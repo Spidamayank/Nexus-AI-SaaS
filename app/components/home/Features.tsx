@@ -20,6 +20,7 @@ export default function Features() {
           automate tasks and work faster.
         </p>
 
+        
       </div>
 
       {/* FeatureCard */}

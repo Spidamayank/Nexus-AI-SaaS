@@ -1,3 +1,5 @@
+import HeroScene from "../three/HeroScene";
+
 export default function Hero() {
   return (
     <section className="relative max-w-7xl mx-auto min-h-screen flex items-center px-8">
@@ -87,9 +89,10 @@ export default function Hero() {
                 <div className="absolute h-64 w-64 rounded-full bg-blue-500/20 blur-3xl"></div>
                 <div className="relative h-full w-full p-8">
                     
-                    <h3 className="text-3xl font-bold text-white">
-                        AI Assistant
-                    </h3>
+                    <div className="h-40 w-full">
+                        <HeroScene />
+                    </div>
+                    
                     <div className="mt-8 space-y-4">
 
                         <div className="rounded-xl bg-gray-800/60 p-4">
